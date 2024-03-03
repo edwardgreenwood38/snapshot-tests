@@ -4,29 +4,36 @@ exports[`renders a snapshot 1`] = `
 <div
   className="App"
 >
-  <header
-    className="App-header"
-  >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
-    <p>
-      Edit 
-      <code>
-        src/App.js
-      </code>
-       and save to reload.
-    </p>
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      rel="noopener noreferrer"
-      target="_blank"
+  <div>
+    <div
+      className="card"
+      style={
+        Object {
+          "width": "18rem",
+        }
+      }
     >
-      Learn React
-    </a>
-  </header>
+      <img
+        className="card-img-top"
+        src="../person-4.jpg"
+      />
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          edwardgreenwood38
+        </div>
+        <p
+          className="card-text"
+        >
+          <p>
+            I am a C#/.Net and MERN stack developer. Currently enrolled in North Caorolina State Software Development course.
+          </p>
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 `;
